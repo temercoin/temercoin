@@ -1,0 +1,2 @@
+debian/bin/TemerCoind usr/bin
+src/TemerCoind usr/lib/TemerCoin

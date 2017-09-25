@@ -1,0 +1,5 @@
+TemerCoin-qt usr/bin
+share/pixmaps/TemerCoin32.xpm usr/share/pixmaps
+share/pixmaps/TemerCoin80.xpm usr/share/pixmaps
+debian/TemerCoin-qt.desktop usr/share/applications
+debian/TemerCoin-qt.protocol usr/share/kde4/services/

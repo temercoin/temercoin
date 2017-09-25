@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TemerCoin
+Comment=TemerCoin P2P Cryptocurrency
+Comment[ru]=TemerCoin, P2P криптовалюта
+Comment[fr]=TemerCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TemerCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/TemerCoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/TemerCoin80.xpm
+MimeType=x-scheme-handler/TemerCoin;
+Categories=Office;

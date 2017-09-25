@@ -1,0 +1,9 @@
+Building TemerCoin
+
+See doc/readme-qt.rst for instructions on building TemerCoin Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of TemerCoin.
+
+See doc/build-*.txt for instructions on building TemerCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of TemerCoin.

@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# PROVIDE: TemerCoin
+# REQUIRE: LOGIN
+# KEYWORD: shutdown
+
+#
+# Add the following lines to /etc/rc.conf.local or /etc/rc.conf
+# to enable this service:
+#
+# TemerCoin_enable (bool): Set to NO by default. Set this variable to YES if you want to enable TemerCoin service.
+# TemerCoin_config (path): Set to /usr/local/etc/TemerCoin.conf by default.
+# TemerCoin_user:  The user account TemerCoin daemon runs as. It uses 'root' user by default.
+# TemerCoin_group: The group account TemerCoin daemon runs as. It uses 'wheel' group by default.
+# TemerCoin_datadir (str): Default to "/var/db/TemerCoin". Base data directory.
+
+. /etc/rc.subr
+
+name=TemerCoin
+rcvar=TemerCoin_enable
+
+: ${TemerCoin_enable:=NO}
+: ${TemerCoin_config=/usr/local/etc/TemerCoin.conf}
+: ${TemerCoin_datadir=/var/db/TemerCoin}
+: ${TemerCoin_user="root"}
+: ${TemerCoin_group="wheel"}
+
+required_files=${TemerCoin_config}
+command=/usr/local/bin/TemerCoind
+TemerCoin_chdir=${TemerCoin_datadir}
+pidfile="${TemerCoin_datadir}/TemerCoind.pid"
+stop_cmd=TemerCoin_stop
+command_args="-conf=${TemerCoin_config} -datadir=${TemerCoin_datadir} -daemon -pid=${pidfile}"
+start_precmd="${name}_prestart"
+
+TemerCoin_create_datadir()
+{
+	echo "Creating data directory"
+	eval mkdir -p ${TemerCoin_datadir}
+	[ $? -eq 0 ] && chown -R ${TemerCoin_user}:${TemerCoin_group} ${TemerCoin_datadir}
+}
+
+TemerCoin_prestart()
+{
+	if [ ! -d "${TemerCoin_datadir}/." ]; then
+		TemerCoin_create_datadir || return 1
+	fi
+}
+
+TemerCoin_requirepidfile()
+{
+	if [ ! "0`check_pidfile ${pidfile} ${command}`" -gt 1 ]; then
+		echo "${name} not running? (check $pidfile)."
+		exit 1
+	fi
+}
+
+TemerCoin_stop()
+{
+    TemerCoin_requirepidfile
+
+	echo "Stopping ${name}."
+	eval ${command} -conf=${TemerCoin_config} -datadir=${TemerCoin_datadir} stop
+	wait_for_pids ${rc_pid}
+}
+
+load_rc_config $name
+run_rc_command "$1"
