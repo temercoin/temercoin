@@ -14,4 +14,6 @@ Blockexplorer: www.temercoin.tk:3001<br>
 Doações:
 
 Serão aceitas doações para custos como dominio dedicado, servidores, e melhorias.
-1LFsv8bYWTCxa1bSuYd5vqAzZjgZxpDgBW
+1LFsv8bYWTCxa1bSuYd5vqAzZjgZxpDgBW - BTC
+
+TW4iayBAxjvAMC7GHe5Jh4tjC2P35KY6id - TMC
