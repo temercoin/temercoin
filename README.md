@@ -7,8 +7,8 @@ Olá a todos sejam bem vindos.
 Algo: SHA256D ( POW + POS ) <br>
 Maturidade Mineração: 60 Blocos.<br>
 Confirmação de Transações: 6 Blocos.<br>
-Site: www.temercoin.tk<br>
-Blockexplorer: www.temercoin.tk:3001<br>
+Site: www.temercoin.com<br>
+Blockexplorer: www.temercoin.com:3001<br>
 
 
 Doações:
