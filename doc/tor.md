@@ -82,18 +82,3 @@ If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
 	./TemerCoin -onion=127.0.0.1:9050 -externalip=youraddress.onion -discover
-
-Known addresses of TemerCoin nodes
-
-	seedp4knqnoei57u.onion
-	seedr3hhlepyi7fd.onion
-	seed3uuomkclbiz4.onion
-	seedeh7qck3ouff5.onion
-	seedt3sraf53ajiy.onion
-	seedg4qyccsg42oq.onion
-	novaqrtoywpg7jly.onion
-	seed3d5wolqbgrcb.onion
-	seed24u5dwph3qw4.onion
-	mj26ulzbs2oskgym.onion
-	eqon4usunavt76m7.onion
-	5rg3vq4jagckeckf.onion

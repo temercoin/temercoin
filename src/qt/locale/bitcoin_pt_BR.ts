@@ -24,7 +24,7 @@ Copyright © 2012-2015 The TemerCoin developers</source>
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2015 The TemerCoin developers</translation>
+Copyright © 2012-2017 The TemerCoin developers</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
@@ -547,7 +547,7 @@ Copyright © 2012-2015 The TemerCoin developers</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <source>Unlo&amp;ck wallet for mining</source>
-        <translation>Destr&ampavar carteira para minerar;</translation>
+        <translation>Destr&amp;avar carteira para minerar</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="344"/>
