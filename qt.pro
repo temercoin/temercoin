@@ -186,6 +186,7 @@ QMAKE_CXXFLAGS_WARN_ON = -fdiagnostics-show-option -Wall -Wextra -Wno-ignored-qu
 # Input
 DEPENDPATH += src src/json src/qt
 HEADERS += src/qt/bitcoingui.h \
+    src/qt/blockbrowser.h \
     src/qt/intro.h \
     src/qt/transactiontablemodel.h \
     src/qt/addresstablemodel.h \
@@ -279,7 +280,9 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/secondauthdialog.h \
     src/qt/qrcodedialog.h
 
-SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
+SOURCES += src/qt/bitcoin.cpp \
+    src/qt/bitcoingui.cpp \
+    src/qt/blockbrowser.cpp \
     src/qt/intro.cpp \
     src/qt/transactiontablemodel.cpp \
     src/qt/addresstablemodel.cpp \
@@ -362,6 +365,7 @@ RESOURCES += \
     src/qt/bitcoin.qrc
 
 FORMS += \
+    src/qt/forms/blockbrowser.ui \
     src/qt/forms/intro.ui \
     src/qt/forms/coincontroldialog.ui \
     src/qt/forms/sendcoinsdialog.ui \
