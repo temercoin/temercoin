@@ -751,22 +751,22 @@ Copyright © 2012-2017 The TemerCoin developers</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="823"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</translation>
+        <translation>Essa transação ultprassa o limite de tamanho. Você ainda quer enviar ela por uma taxa de %1, ao qual os nós irão processar sua transação e ajudar a apoiar a rede. Você deseja pagar a taxa?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="828"/>
         <source>Confirm transaction fee</source>
-        <translation>Confirm transaction fee</translation>
+        <translation>Confirmar taxa de transação</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="855"/>
         <source>Sent transaction</source>
-        <translation>Sent transaction</translation>
+        <translation>Enviar transação/translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="856"/>
         <source>Incoming transaction</source>
-        <translation>Incoming transaction</translation>
+        <translation>Transação recebida</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="857"/>
@@ -775,10 +775,10 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Date: %1
-Amount: %2
-Type: %3
-Address: %4
+        <translation>Data: %1
+Quantidade: %2
+Tipo: %3
+Endereço: %4
 </translation>
     </message>
     <message>
@@ -791,60 +791,59 @@ Address: %4
         <location filename="../bitcoingui.cpp" line="982"/>
         <location filename="../bitcoingui.cpp" line="997"/>
         <source>URI can not be parsed! This can be caused by an invalid TemerCoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid TemerCoin address or malformed URI parameters.</translation>
+        <translation>A URI não pode ser verificada! Isso pode ser causado por um endereço TemerCoin inválido ou má formatação dos parâmetros da URI</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
+        <translation>Sua carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente está&lt;b&gt;destravada;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1035"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
+        <translation>Sua carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente está&lt;b&gt;travada;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1084"/>
         <source>Backup Wallet</source>
-        <translation>Backup Wallet</translation>
+        <translation>Backup da Carteira</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1084"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet Data (*.dat)</translation>
+        <translation>Dados da Carteira (*.dat)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1087"/>
         <source>Backup Failed</source>
-        <translation>Backup Failed</translation>
+        <translation>Backup deu errado/translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1087"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>There was an error trying to save the wallet data to the new location.</translation>
+        <translation>Teve um erro ao tentar salvar a carteira no novo local.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1109"/>
         <source>Dump Wallet</source>
-        <translation>There was an error trying to save the wallet data to the new location.</translation>
+        <translation>Dump na Carteira</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1109"/>
         <location filename="../bitcoingui.cpp" line="1142"/>
         <source>Wallet dump (*.txt)</source>
-        <translation>Wallet dump (*.txt)</translation>
+        <translation>Dump da Carteira (*.txt)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1112"/>
         <source>Dump failed</source>
-        <translation>Dump failed</translation>
+        <translation>O Dump falhou</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1113"/>
         <source>An error happened while trying to save the keys to your location.
 Keys were not saved.</source>
-        <translation>An error happened while trying to save the keys to your location.
-Keys were not saved.</translation>
+        <translation>Um erro aconteceu enquanto tentava salvar as chaves no seu local. As chaves não foram salvas</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1118"/>
