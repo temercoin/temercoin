@@ -1,0 +1,7 @@
+language: c++
+sudo: enabled
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y build-essential libssl-dev libdb5.3-dev libdb5.3++-dev libboost-all-dev libqrencode-dev
+cd /src
+  make -f makefile.unix
