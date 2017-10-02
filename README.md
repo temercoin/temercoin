@@ -1,4 +1,4 @@
-# temercoin   - <img src="https://travis-ci.org/temercoin/temercoin.svg?branch=master" />
+# TemerCoin   - <img src="https://travis-ci.org/temercoin/temercoin.svg?branch=master" />
 
 Olá a todos sejam bem vindos.
 
