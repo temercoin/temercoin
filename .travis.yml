@@ -1,12 +1,24 @@
-language: c++
-sudo: enabled
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -qq build-essential
-  - sudo apt-get install -qq libssl-dev
-  - sudo apt-get install -qq libdb5.3-dev
-  - sudo apt-get install -qq libdb5.3++-dev
-  - sudo apt-get install -qq libboost-all-dev
-  - sudo apt-get install -qq libqrencode-dev
-before_install: cd src
-install: make -f makefile.unix
+language: cpp
+
+compiler:
+  - g++
+ 
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    - boost-latest
+    packages:
+    - build-essential
+    - libssl-dev
+    - libdb5.3-dev
+    - libdb5.3++-dev
+    - gcc-4.8
+    - g++-4.8
+    - libboost-all-dev
+    - libqrencode-dev
+
+before_script:
+  - cd src
+  
+script: make -f makefile.unix
