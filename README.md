@@ -1,8 +1,8 @@
-# temercoin
+# temercoin   - <img src="https://travis-ci.org/temercoin/temercoin.svg?branch=master" />
 
 Olá a todos sejam bem vindos.
 
-<b><h3>TemerCoin</h3></b>
+<b><h4>Especificações</h4></b>
 
 Algo: SHA256D ( POW + POS ) <br>
 Maturidade Mineração: 60 Blocos.<br>
